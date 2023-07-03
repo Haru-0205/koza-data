@@ -1,0 +1,4 @@
+PWD /home/haru/documents/github/koza-data/data/texts/inkscape/1
+INPUT /var/lib/texmf/web2c/luahbtex/lualatex.fmt
+INPUT ./text.tex
+OUTPUT text.log
