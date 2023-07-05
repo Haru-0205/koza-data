@@ -1,467 +1,66 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Arch Linux)  (format=lualatex 2023.6.30)  1 JUL 2023 20:58
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.7.2)  5 JUL 2023 17:47
  restricted system commands enabled.
  file:line:error style messages enabled.
 **text.tex
-(./text.tex[\directlua]:1: module 'lualatexquotejobname.lua' not found:
-	no field package.preload['lualatexquotejobname.lua']
-	[kpse lua searcher] file not found: 'lualatexquotejobname.lua'
-stack traceback:
-	[C]: in function 'require'
-	[\directlua]:1: in main chunk.
-<everyjob> \directlua {require("lualatexquotejobname.lua")}
-                                                \typeout {\fmtname \space <\fmt
-l.1 
-  \documentclass{ltjsarticle}
-The lua interpreter ran into a problem, so the
-remainder of this lua chunk will be ignored.
-
-LaTeX2e <2022-11-01> patch level 1
-[\directlua]:1: module 'ltluatex' not found:
-	no field package.preload['ltluatex']
-	[kpse lua searcher] file not found: 'ltluatex'
-stack traceback:
-	[C]: in function 'require'
-	[\directlua]:1: in main chunk.
-<everyjob> ...f \tokszero =0 \directlua {require("ltluatex")}
-                                                   \endgroup \directlua {if ...
-l.1 
-  \documentclass{ltjsarticle}
-The lua interpreter ran into a problem, so the
-remainder of this lua chunk will be ignored.
-
-[\directlua]:1: module 'luaotfload-main' not found:
-	no field package.preload['luaotfload-main']
-	[kpse lua searcher] file not found: 'luaotfload-main'
-Error in luaotfload: reverting to OT1 L3 programming layer <2023-02-22>[\directlua]:1: module 'expl3' not found:
-	no field package.preload['expl3']
-	[kpse lua searcher] file not found: 'expl3'
-stack traceback:
-	[C]: in function 'require'
-	[\directlua]:1: in main chunk.
-\lua_now:e #1->\__lua_now:n {#1}
-                                
-l.1 
-  \documentclass{ltjsarticle}
-The lua interpreter ran into a problem, so the
-remainder of this lua chunk will be ignored.
-
-[\directlua]:1: attempt to index a nil value (global 'luatexbase')
-stack traceback:
-	[\directlua]:1: in main chunk.
-\lua_now:e #1->\__lua_now:n {#1}
-                                
-l.1 
-  \documentclass{ltjsarticle}
-The lua interpreter ran into a problem, so the
-remainder of this lua chunk will be ignored.
-
-[\directlua]:1: attempt to index a nil value (global 'luatexbase')
-stack traceback:
-	[\directlua]:1: in main chunk.
-<everyjob> ...ng', trace_stack_levels,'tracingstacklevels') }
-                                                  \lua_now:n {local texnest,...
-l.1 
-  \documentclass{ltjsarticle}
-The lua interpreter ran into a problem, so the
-remainder of this lua chunk will be ignored.
-
-./text.tex:2: Missing \endcsname inserted.
-<to be read again> 
-\exp_stop_f: 
-l.2 \begin
-        {document}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./text.tex:2: Missing \endcsname inserted.
-<to be read again> 
-\exp_stop_f: 
-l.2 \begin
-        {document}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./text.tex:2: Missing \endcsname inserted.
-<to be read again> 
-\exp_stop_f: 
-l.2 \begin
-        {document}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./text.tex:2: Missing \endcsname inserted.
-<to be read again> 
-\exp_stop_f: 
-l.2 \begin
-        {document}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-./text.tex:2: Missing \endcsname inserted.
-<to be read again> 
-\exp_stop_f: 
-l.2 \begin
-        {document}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-
-./text.tex:2: LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2 \begin
-        {document}
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-./text.tex:2: Extra \endcsname.
-\@ifl@ter ...@ifl@t@r \csname ver@#2.#1\endcsname 
-                                                  
-l.2 \begin
-        {document}
-I'm ignoring this, since I wasn't doing a \csname.
-
-./text.tex:2: Missing \endcsname inserted.
-<to be read again> 
-\exp_stop_f: 
-l.2 \begin
-        {document}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-
-LaTeX Warning: You have requested, on input line 2, version
-               `' of document class 108\exp_stop_f: 11\exp_stop_f: 116\exp_stop_f: 11\exp_stop_f: 106\exp_stop_f: 11\exp_stop_f: 115\exp_stop_f: 11\exp_stop_f: 97\exp_stop_f: 11\exp_stop_f: 114\exp_stop_f: 11\exp_stop_f: 116\exp_stop_f: 11\exp_stop_f: 105\exp_stop_f: 11\exp_stop_f: 99\exp_stop_f: 11\exp_stop_f: 108\exp_stop_f: 11\exp_stop_f: 101\exp_stop_f: 11\exp_stop_f: ,
-               but only version
-               `\ver@108 \exp_stop_f: 11\exp_stop_f: 116\exp_stop_f: 11\exp_stop_f: 106\exp_stop_f: 11\exp_stop_f: 115\exp_stop_f: 11\exp_stop_f: 97\exp_stop_f: 11\exp_stop_f: 114\exp_stop_f: 11\exp_stop_f: 116\exp_stop_f: 11\exp_stop_f: 105\exp_stop_f: 11\exp_stop_f: 99\exp_stop_f: 11\exp_stop_f: 108\exp_stop_f: 11\exp_stop_f: 101\exp_stop_f: 11\exp_stop_f: .cls\endcsname '
-               is available.
-
-./text.tex:2: Missing number, treated as zero.
-<to be read again> 
-{
-l.2 \begin{document}
-                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./text.tex:2: Argument of \prg_map_break:Nn has an extra }.
-<inserted text> 
-\par 
-l.2 \begin{document}
-                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-./text.tex:2: Paragraph ended before \prg_map_break:Nn was complete.
-<to be read again> 
-\par 
-l.2 \begin{document}
-                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 2--2
-[]1
- []
-
-./text.tex:2: Argument of \__hook_apply_label_pair:nnn has an extra }.
-<inserted text> 
-\par 
-l.2 \begin{document}
-                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-./text.tex:2: Paragraph ended before \__hook_apply_label_pair:nnn was complete.
-<to be read again> 
-\par 
-l.2 \begin{document}
-                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-./text.tex:2: Argument of \__hook_apply_label_pair:nnn has an extra }.
-<inserted text> 
-\par 
-l.2 \begin{document}
-                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-./text.tex:2: Paragraph ended before \__hook_apply_label_pair:nnn was complete.
-<to be read again> 
-\par 
-l.2 \begin{document}
-                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-
-./text.tex:2: LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2 \begin{document}
-                  
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-./text.tex:2: Missing number, treated as zero.
-<to be read again> 
-{
-l.2 \begin{document}
-                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./text.tex:2: Argument of \prg_map_break:Nn has an extra }.
-<inserted text> 
-\par 
-l.2 \begin{document}
-                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-./text.tex:2: Paragraph ended before \prg_map_break:Nn was complete.
-<to be read again> 
-\par 
-l.2 \begin{document}
-                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 2--2
-[]enddocument/info 
- []
-
-./text.tex:2: Argument of \__hook_apply_label_pair:nnn has an extra }.
-<inserted text> 
-\par 
-l.2 \begin{document}
-                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-./text.tex:2: Paragraph ended before \__hook_apply_label_pair:nnn was complete.
-<to be read again> 
-\par 
-l.2 \begin{document}
-                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-./text.tex:2: Argument of \__hook_apply_label_pair:nnn has an extra }.
-<inserted text> 
-\par 
-l.2 \begin{document}
-                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-./text.tex:2: Paragraph ended before \__hook_apply_label_pair:nnn was complete.
-<to be read again> 
-\par 
-l.2 \begin{document}
-                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-
-./text.tex:2: LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2 \begin{document}
-                  
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-./text.tex:2: Missing number, treated as zero.
-<to be read again> 
-{
-l.2 \begin{document}
-                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./text.tex:2: Argument of \prg_map_break:Nn has an extra }.
-<inserted text> 
-\par 
-l.2 \begin{document}
-                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-./text.tex:2: Paragraph ended before \prg_map_break:Nn was complete.
-<to be read again> 
-\par 
-l.2 \begin{document}
-                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 2--2
-[]enddocument/info 
- []
-
-./text.tex:2: Argument of \__hook_apply_label_pair:nnn has an extra }.
-<inserted text> 
-\par 
-l.2 \begin{document}
-                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-./text.tex:2: Paragraph ended before \__hook_apply_label_pair:nnn was complete.
-<to be read again> 
-\par 
-l.2 \begin{document}
-                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-./text.tex:2: Argument of \__hook_apply_label_pair:nnn has an extra }.
-<inserted text> 
-\par 
-l.2 \begin{document}
-                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-./text.tex:2: Paragraph ended before \__hook_apply_label_pair:nnn was complete.
-<to be read again> 
-\par 
-l.2 \begin{document}
-                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-
-./text.tex:2: LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2 \begin{document}
-                  
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-./text.tex:2: Missing number, treated as zero.
-<to be read again> 
-{
-l.2 \begin{document}
-                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./text.tex:2: Argument of \prg_map_break:Nn has an extra }.
-<inserted text> 
-\par 
-l.2 \begin{document}
-                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-./text.tex:2: Paragraph ended before \prg_map_break:Nn was complete.
-<to be read again> 
-\par 
-l.2 \begin{document}
-                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 2--2
-[]enddocument/info 
- []
-
-./text.tex:2: Argument of \__hook_apply_label_pair:nnn has an extra }.
-<inserted text> 
-\par 
-l.2 \begin{document}
-                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-./text.tex:2: Paragraph ended before \__hook_apply_lab
+(./text.tex
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-06-30>
+Lua module: luaotfload 2022-10-03 3.23 Lua based OpenType font support
+Lua module: lualibs 2022-10-04 2.75 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2022-10-04 2.75 ConTeXt Lua libraries -- extended collection.
+luaotfload | conf : Root cache directory is "/home/haru/.texlive2023/texmf-var/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2022-10-03.lua" from kpse-resolved path "/usr/local/texlive/2023/texmf-dist/tex/luatex/luaotfload/fontloader-2022-10-03.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.120
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "/home/haru/.texlive2023/texmf-var/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'. (/usr/local/texlive/2023/texmf-dist/tex/luatex/luatexja/ltjsarticle.cls
+Document Class: ltjsarticle 2022/09/12 ltjsclasses 
+(/usr/local/texlive/2023/texmf-dist/tex/luatex/luatexja/luatexja.sty
+Package: luatexja 2023-05-03 Japanese Typesetting with Lua(La)TeX
+ (/usr/local/texlive/2023/texmf-dist/tex/luatex/luatexja/luatexja-core.sty
+Package: luatexja-core 2023-04-06 Core of LuaTeX-ja
+ (/usr/local/texlive/2023/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
+Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX 
+ (/usr/local/texlive/2023/texmf-dist/tex/luatex/ctablestack/ctablestack.sty
+Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
+\@catcodetablestackcnt=\count183
+)
+\CatcodeTableOther=\catcodetable14
+\CatcodeTableExpl=\catcodetable15
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks17
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option
