@@ -1,7 +1,7 @@
-PWD c:/Users/haru/OneDrive - 公立大学法人大阪/Documents/GitHub/koza-data/koza-data/info/1
+PWD c:/Users/haru/OneDrive - 公立大学法人大阪/Documents/GitHub/koza-data/koza-data/info/keikaku
 INPUT c:/texlive/2023/texmf-var/web2c/luahbtex/lualatex.fmt
-INPUT c:/Users/haru/OneDrive - 公立大学法人大阪/Documents/GitHub/koza-data/koza-data/info/1/info1.tex
-OUTPUT info1.log
+INPUT c:/Users/haru/OneDrive - 公立大学法人大阪/Documents/GitHub/koza-data/koza-data/info/keikaku/plan.tex
+OUTPUT plan.log
 INPUT c:/texlive/2023/texmf-dist/tex/latex/latexconfig/lualatexquotejobname.lua
 INPUT c:/texlive/2023/texmf-dist/tex/latex/base/ltluatex.lua
 INPUT c:/texlive/2023/texmf-dist/tex/luatex/luaotfload/luaotfload-main.lua
@@ -121,16 +121,37 @@ INPUT C:/Users/haru/.texlive2023/texmf-var/luatexja/extra_lmroman8-regular.luc
 INPUT c:/texlive/2023/texmf-dist/tex/platex/jsclasses/jslogo.sty
 INPUT c:/texlive/2023/texmf-dist/tex/latex/sttools/stfloats.sty
 INPUT c:/texlive/2023/texmf-dist/tex/luatex/luatexja/patches/lltjp-stfloats.sty
-INPUT c:/texlive/2023/texmf-dist/tex/latex/enumitem/enumitem.sty
-INPUT ./info1.aux
-OUTPUT info1.aux
+INPUT c:/texlive/2023/texmf-dist/tex/lualatex/koza/koza.sty
+INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
+INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics-def/luatex.def
+INPUT c:/texlive/2023/texmf-dist/tex/latex/titlesec/titlesec.sty
+INPUT ./plan.aux
+OUTPUT plan.aux
 INPUT c:/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
+INPUT c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+INPUT c:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT c:/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman17-regular.luc
+INPUT C:/Users/haru/.texlive2023/texmf-var/luatexja/extra_lmroman17-regular.luc
 INPUT C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-regular.luc
 INPUT C:/Users/haru/.texlive2023/texmf-var/luatexja/extra_lmroman12-regular.luc
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/haranoajigothic-medium.luc
 INPUT C:/Users/haru/.texlive2023/texmf-var/luatexja/extra_haranoajigothic-medium.luc
-INPUT C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmsans10-regular.luc
-INPUT C:/Users/haru/.texlive2023/texmf-var/luatexja/extra_lmsans10-regular.luc
-OUTPUT info1.pdf
+INPUT C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmsans12-regular.luc
+INPUT C:/Users/haru/.texlive2023/texmf-var/luatexja/extra_lmsans12-regular.luc
+OUTPUT plan.pdf
 INPUT c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT ./info1.aux
+INPUT ./plan.aux

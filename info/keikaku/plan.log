@@ -1,8 +1,8 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.6.27)  6 JUL 2023 12:49
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.6.27)  6 JUL 2023 15:16
  restricted system commands enabled.
  file:line:error style messages enabled.
-**"c:/Users/haru/OneDrive - 公立大学法人大阪/Documents/GitHub/koza-data/koza-data/info/1/info1.tex"
-("c:/Users/haru/OneDrive - 公立大学法人大阪/Documents/GitHub/koza-data/koza-data/info/1/info1.tex"
+**"c:/Users/haru/OneDrive - 公立大学法人大阪/Documents/GitHub/koza-data/koza-data/info/keikaku/plan.tex"
+("c:/Users/haru/OneDrive - 公立大学法人大阪/Documents/GitHub/koza-data/koza-data/info/keikaku/plan.tex"
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-16>
 Lua module: luaotfload 2022-10-03 3.23 Lua based OpenType font support
@@ -375,17 +375,34 @@ LaTeX Info: Redefining \LaTeXe on input line 188.
 Package: stfloats 2017/03/27 v3.3 Improve float mechanism and baselineskip settings
 \@dblbotnum=\count271
 \c@dblbotnumber=\count272
-) (c:/texlive/2023/texmf-dist/tex/luatex/luatexja/patches/lltjp-stfloats.sty)) (c:/texlive/2023/texmf-dist/tex/latex/enumitem/enumitem.sty
-Package: enumitem 2019/06/20 v3.9 Customized lists
-\enitkv@toks@=\toks27
-\labelindent=\skip51
-\enit@outerparindent=\dimen164
-\enit@toks=\toks28
-\enit@inbox=\box70
-\enit@count@id=\count273
-\enitdp@description=\count274
-) (./info1.aux)
-\openout1 = info1.aux
+) (c:/texlive/2023/texmf-dist/tex/luatex/luatexja/patches/lltjp-stfloats.sty)) (c:/texlive/2023/texmf-dist/tex/lualatex/koza/koza.sty (c:/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 107.
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2022/09/22 v1.2d Graphics/color driver for luatex
+))
+\Gin@req@height=\dimen164
+\Gin@req@width=\dimen165
+) (c:/texlive/2023/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box70
+\beforetitleunit=\skip51
+\aftertitleunit=\skip52
+\ttl@plus=\dimen166
+\ttl@minus=\dimen167
+\ttl@toksa=\toks27
+\titlewidth=\dimen168
+\titlewidthlast=\dimen169
+\titlewidthfirst=\dimen170
+)) (./plan.aux)
+\openout1 = plan.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
@@ -411,18 +428,53 @@ LaTeX Font Info:    Checking defaults for JY3/mc/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for JT3/mc/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
+ (c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count273
+\scratchdimen=\dimen171
+\scratchbox=\box71
+\nofMPsegments=\count274
+\nofMParguments=\count275
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count276
+\MPscratchDim=\dimen172
+\MPnumerator=\count277
+\makeMPintoPDFobject=\count278
+\everyMPtoPDFconversion=\toks29
+) (c:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (c:/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))(load cache: extra_lmroman17-regular.luc)
+LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
+(Font)              scaled to size 15.97903pt on input line 7.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 15.97903pt on input line 7.
 (load cache: extra_lmroman12-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 13.31586pt on input line 16.
+(Font)              scaled to size 11.09656pt on input line 7.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 13.31586pt on input line 16.
+(Font)              scaled to size 11.09656pt on input line 7.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 7.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 7.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 7.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 5.54828pt on input line 7.
+LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
+(Font)              scaled to size 13.31586pt on input line 11.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 13.31586pt on input line 11.
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 9.24713pt on input line 32.
+(Font)              scaled to size 13.31586pt on input line 11.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 9.24713pt on input line 32.
-(load cache: extra_haranoajigothic-medium.luc)(load cache: extra_lmsans10-regular.luc) [1
+(Font)              scaled to size 13.31586pt on input line 11.
+(load cache: extra_haranoajigothic-medium.luc)(load cache: extra_lmsans12-regular.luc) [1
 
-{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./info1.aux)
+{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./plan.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-16>
@@ -430,16 +482,16 @@ L3 programming layer <2023-06-16>
 )
 
 Here is how much of LuaTeX's memory you used:
- 3340 strings out of 478031
+ 4151 strings out of 478031
  125244,1977958 words of node,token memory allocated
- 792 words of node memory still in use:
-   7 hlist, 1 vlist, 4 rule, 2 glue, 3 kern, 1 glyph, 129 attribute, 49 glue_spec, 20 attribute_list, 1 write, 9 user_defined nodes
-   avail lists: 1:9,2:15925,3:236,4:107,5:26,6:30,7:1804,8:1,9:724,10:14,11:4
- 23789 multiletter control sequences out of 65536+600000
- 23 fonts using 16377575 bytes
- 125i,5n,128p,1860b,235s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiGothic-Medium.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiMincho-Regular.otf>
-Output written on info1.pdf (1 page, 49010 bytes).
+ 812 words of node memory still in use:
+   7 hlist, 1 vlist, 4 rule, 2 glue, 3 kern, 1 glyph, 129 attribute, 53 glue_spec, 20 attribute_list, 1 write, 9 user_defined nodes
+   avail lists: 1:10,2:4471,3:84,4:82,5:24,6:20,7:508,8:3,9:206,10:10
+ 24555 multiletter control sequences out of 65536+600000
+ 38 fonts using 28611623 bytes
+ 125i,6n,128p,1861b,271s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiGothic-Medium.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiMincho-Regular.otf>
+Output written on plan.pdf (1 page, 18621 bytes).
 
 PDF statistics: 36 PDF objects out of 1000 (max. 8388607)
  20 compressed objects within 1 object stream
