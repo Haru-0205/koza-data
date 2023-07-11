@@ -85,6 +85,86 @@ Linuxとは、伝説的エンジニアLinus TorvaldsがUnixやMinix\footnote[4]{
 \subsubsection{KernelとDistribution}
 狭義のLinuxは「Kernel」と呼ばれる「核」にあたる部分のみを示す。GoogleがAndroidを作ったときにベースにしたのもこのKernelである。\\
 しかし、KernelだけではOSは動かず、他にShellなどのソフトウェアが必要で、LinusはGNUプロジェクトのソフトウェアを自力でインストールすることを前提としていた。\\
-そこで、Kernelとその他動作に必要なソフト類をまとめて配布するパッケージが誕生した。これは、「Linuxディストリビューション」とよばれ、広義のLinuxはこれを含むうえ、一般にLinuxというとLinuxディストリビューションのことを指す。また、Linuxディストリビューションは、「ディストロ」と略されることも多い。
+そこで、Kernelとその他動作に必要なソフト類をまとめて配布するパッケージが誕生した。これは、「Linuxディストリビューション(Distribution)」とよばれ、広義のLinuxはこれを含むうえ、一般にLinuxというとLinuxディストリビューションのことを指す。また、Linuxディストリビューションは、「ディストロ」と略されることも多い。
 いまでは、Linuxディストリビューションは星の数ほど存在し、日々新しいプロジェクトが立ち上がっては、プロジェクトが消滅していっている。
+\subsubsection{Distributionの分類}
+現在ディストリビューションは星の数ほど存在し、分類をしなければ特徴を掴むのは極めて難しい。\\
+よって、表2のような分類がある。なお、パッケージマネージャーについては後述する。
+\begin{table}
+    \caption{ディストリビューションの分類}
+    \begin{center}
+        \begin{tabular}{lll}\hline
+            系統 & 特徴 & パッケージマネージャー \\ \hline \hline
+            Debian系 & 最も多くのディストリビューションを擁する & apt \\ \hline
+            RedHat系 & 元となったディストロは商用シェアNo.1 & rpm \\ \hline
+            Arch系 & 安定性が高く、コミュニティが活発 & pacman \\ \hline
+            独立系 & 上記の3つのいずれにも属さないディストロ & ディストロによる \\ \hline
+        \end{tabular}
+    \end{center}
+\end{table}
+\subsubsection{ユーザーインターフェース}
+ユーザーインターフェースは、略してUIともよばれる、私達がコンピュータを操作するときにみる画面のことである。\\
+Linuxにおいては、GUIとCLIの2つに大別される。\\
+GUIは、Graphical User Interfaceの略で、WindowsやMacOSのように、キーボードとマウスなどを用いて操作できる形式である。\\
+一方、CLIはCommand Line Interfaceの略で、コマンド環境のみで操作する形式のことである。\\
+CUI:Character User Interface,Character-based User Interface,またはCommand User InterfaceもCLIと同義である。
+\subsubsection{シェル}
+CLI環境に置いては、コマンドの入力インターフェース兼コマンド入力補助ツールとして「シェル」とよばれるプログラムが使用される。\\
+Windowsでは「コマンドプロンプト」や「Windows PowerShell」などに当たる。\\
+おそらく一番有名なシェルは「Bash」である。
+\subsubsection{デスクトップ環境}
+GUI環境をもつLinuxは、事実上デスクトップ環境(略称:DE)を持つ。\\
+表3に主なデスクトップ環境を挙げる。なお、谷口が今気に入っているのはKDE Plasmaである。\\
+\begin{table}
+    \caption{主なデスクトップ環境}
+    \begin{center}
+        \begin{tabular}{lll} \hline
+            DE名 & 特徴 & 開発元 \\ \hline \hline
+            GNOME Shell & 3D効果を駆使したグラフィカルなDE & GNU \\ \hline
+            KDE Plasma & 美しく、モダンで高機能性なDE & KDE \\ \hline
+            Xfce & 軽さと機能性を両立したスマートなDE \\ \hline
+            LXDE/LXQt & 軽さを追求したとにかく軽いDE \\ \hline
+            Budgie & すっきりとしたデザインでモダンなDE \\ \hline
+        \end{tabular}
+    \end{center}
+\end{table}
+\subsubsection{Linuxで利用するソフト}
+もちろんLinuxでも十分実用に耐えうるようなソフトウェアが用意されている。\\
+なお、この中にはOSSであったり、OSSでなくてもWindowsやMacでも利用可能なソフトが含まれる。このようなソフトウェアを「クロス・プラットフォーム」という。\\
+あまり知名度が高くないソフトウェアも多いが、本プロジェクトでは基本的にこの中にあるようなソフトウェアを活用する。\\
+今回活用する予定のクロス・プラットフォームのソフトを表4に掲載する。
+\begin{table}
+    \caption{本プロジェクトで利用予定のソフトウェア}
+    \begin{center}
+        \begin{tabular}{lll}\hline
+            ソフト名 & 用途 & 類似ソフト \\ \hline \hline
+            Inkscape & ベクター・グラフィックス & Adobe Illustrator \\ \hline
+            GIMP & 画像編集 & Adobe Photoshop \\ \hline
+            Krita & ラスター・グラフィックス & Clip Studio Paint \\ \hline
+            Microsoft Visual Studio Code & テキストエディタ \\ \hline
+            GitHub Desktop & Git管理 \\ \hline
+            Figma & UI設計 \\ \hline
+        \end{tabular}
+    \end{center}
+\end{table}
+\subsubsection{コマンドライン・ツール}
+コマンド上から実行するツールのことをコマンドライン・ツールと言う。\\
+私はLinuxを常用している関係上、コマンドライン・ツールをよく利用する。\\
+以下にその一例を挙げる
+\begin{itemize}
+    \item Vim/NeoVim
+    \item git
+    \item GitHub CLI
+    \item LilyPond
+    \item Windows File Recovery
+    \item LaTeX
+\end{itemize}
+\subsection{まとめ}
+\begin{itemize}
+    \item OSはコンピュータの動作に必要不可欠
+    \item 一口にOSといっても様々なものがある
+    \item 実際の操作画面のことをUIという
+    \item UIはGUIとCUIという2種類に大別される
+    \item 本プロジェクトでは基本的にOSSでクロスプラットフォームなアプリケーションを利用する
+\end{itemize}
 \end{document}
