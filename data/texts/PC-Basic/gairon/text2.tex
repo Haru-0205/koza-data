@@ -1,0 +1,75 @@
+\documentclass{ltjsarticle}
+\begin{document}
+\title{PC基礎講習テキスト\\vol.1}
+\author{谷口 陽音}
+\date{2023-07-16}
+\maketitle
+\section{OSについて}
+\subsection{OSとは}
+OS[Operating System]は、一般に基本ソフトウェアのことを指し、これはPCが動作するために必要なものである。\\
+OSにもさまざまな種類があり、さまざまなシステムに組み込まれる。\\
+OSは主にC言語で書かれている。また、OSによって実行ファイルの形式が異なる。\\
+実行ファイルについては後述する。
+\subsection{OSの例}
+ここでは、代表的なOSを列挙する。
+\begin{itemize}
+    \item PC
+    \begin{itemize}
+        \item Windows
+        \item MacOS
+        \item ChromeOS
+        \item Linux\footnote[1]{詳しい種類(ディストリビューション)については後述}
+        \item FreeBSD
+    \end{itemize}
+    \item スマートフォン・タブレット
+    \begin{itemize}
+        \item Android
+        \item iOS
+        \item iPadOS
+        \item Windows Phone
+    \end{itemize}
+    \item サーバー
+    \begin{itemize}
+        \item Linux
+        \item Windows Server
+    \end{itemize}
+\end{itemize}
+\subsection{実行ファイル}
+実行ファイルとは、そのOS上で実行可能なファイルのことを指す。\\
+狭義には、アプリケーション・ソフトウェアの実体となるファイルを指す。\\
+表1に代表的なOSとその実行ファイルの拡張子を示す。\\
+
+\begin{table}
+    \caption{主なOSと実行ファイル拡張子}
+    \begin{center}
+\begin{tabular}{|l|l|} \hline
+    OS & 拡張子 \\ \hline \hline
+    Windows & .exe,.msi \\ \hline
+    MacOS & .app,.ipa \\ \hline
+    Android & .apk \\ \hline
+    iOS,iPadOS & .ipa \\ \hline
+    Linux & .appimage,.sh\footnote[2]{Linuxは若干特殊なため、詳しくは後述} \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+\subsection{Windows}
+Windowsは、Microsoft社が開発したOSで、クライアント向けの「Windows」シリーズとサーバー向けの「Windows Server」がある。\\
+Windows Subsystem for Linuxを用いることでLinux環境を構築できる。\\
+Windowsのシェア率は非常に高く、70\%を超えている。\\
+なお、標準ブラウザーであるChromium系のMicrosoft Edgeは今ひとつと言われている。
+\subsection{MacOS}
+MacOSは、Apple社が開発したUNIX系のOSで、Apple純正コンピューター「Mac」シリーズ以外には搭載できない\footnote[3]{そのMacOSを他のデバイスに移植しようとするHackintoshという試みもあるが、これはAppleのライセンス違反となるため、推奨しない。}。\\
+UNIX系のため、Webデザインなどによく使われ、デザイン業界のスタンダードである。\\
+iPhoneやiPadといった他のApple製品と連携させることができる。\\
+標準ブラウザーはChromium系のSafariであり、これもApple製OSでないと動かない。
+\subsection{ChromeOS}
+ChromeOSは、Googleが開発したWebベースのOSである。\\
+インターネット接続が前提とされたOSであり、RAM容量およびROM容量は少なくて良い。\\
+純正ChromeOSはGoogle Play StoreでAndroidアプリのインストールが可能である。\\
+なお、これのオープンソース版をChromium OSという。
+\subsection{iOS/iPadOS}
+iOSおよびiPadOSは、Apple社が開発したモバイル向けOSである。\\
+これらのOSは、アプリストア「AppStore」経由でしかソフトウェアがインストールできない。\\
+また、これらのOS上で動作するアプリケーションについては、Macでしか開発できない。\\
+
+\end{document}
