@@ -161,4 +161,6 @@ OUTPUT text2.pdf
 INPUT c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman9-regular.luc
 INPUT C:/Users/haru/.texlive2023/texmf-var/luatexja/extra_lmroman9-regular.luc
+INPUT C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmsans10-regular.luc
+INPUT C:/Users/haru/.texlive2023/texmf-var/luatexja/extra_lmsans10-regular.luc
 INPUT ./text2.aux

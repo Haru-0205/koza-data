@@ -71,5 +71,20 @@ ChromeOSは、Googleが開発したWebベースのOSである。\\
 iOSおよびiPadOSは、Apple社が開発したモバイル向けOSである。\\
 これらのOSは、アプリストア「AppStore」経由でしかソフトウェアがインストールできない。\\
 また、これらのOS上で動作するアプリケーションについては、Macでしか開発できない。\\
-
+\subsection{Android}
+Androidは、GoogleがLinuxをカスタマイズしてモバイルプラットフォームに最適化したモバイル向けOSである。\\
+iOS/iPadOSとは違い、Google Play Store以外のソースからのアプリもインストール可能である。\\
+また、AndroidアプリはMacだけでなく、WindowsやLinuxでも開発できる。\\
+なお、Androidアプリ開発用ソフト「Android Studio」はJetBrainsのIntelliJ IDEA Communityがベースになっており、開発言語もまたJetBrains製のKotlinが推奨されている。
+\subsection{Linux}
+\subsubsection{Linuxとは}
+Linuxとは、伝説的エンジニアLinus TorvaldsがUnixやMinix\footnote[4]{当時よく使われていた教育向けのオープンソースなOS}をもとに開発したOSS\footnote[4]{Open Source Software:オープンソースソフトウェア(ソースコードを公開して開発すること)}である。\\
+今日のWebの普及はLinuxがあってこそのものだともいわれている。\\
+また、先述したように、Googleがソースコードを改変してAndroidを作ったように、OSSは改変や再配布が自由に可能である。\\
+そもそもGUIを持っていないことも多いが、GUIを持っているものについては、デフォルトブラウザーはFireFoxやChromiumといったOSSが採用されている。
+\subsubsection{KernelとDistribution}
+狭義のLinuxは「Kernel」と呼ばれる「核」にあたる部分のみを示す。GoogleがAndroidを作ったときにベースにしたのもこのKernelである。\\
+しかし、KernelだけではOSは動かず、他にShellなどのソフトウェアが必要で、LinusはGNUプロジェクトのソフトウェアを自力でインストールすることを前提としていた。\\
+そこで、Kernelとその他動作に必要なソフト類をまとめて配布するパッケージが誕生した。これは、「Linuxディストリビューション」とよばれ、広義のLinuxはこれを含むうえ、一般にLinuxというとLinuxディストリビューションのことを指す。また、Linuxディストリビューションは、「ディストロ」と略されることも多い。
+いまでは、Linuxディストリビューションは星の数ほど存在し、日々新しいプロジェクトが立ち上がっては、プロジェクトが消滅していっている。
 \end{document}

@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1689069416 "c:/Users/haru/github/koza-data/data/texts/PC-Basic/gairon/text2.tex" "text2.pdf" "text2" 1689069419 0
+["lualatex"] 1689079182 "c:/Users/haru/github/koza-data/data/texts/PC-Basic/gairon/text2.tex" "text2.pdf" "text2" 1689079185 0
   "C:/Users/haru/.texlive2023/texmf-var/luatexja/extra_haranoajigothic-medium.luc" 1687620067 321554 a5fb98dc0cb494158aab4f607cacfd22 ""
   "C:/Users/haru/.texlive2023/texmf-var/luatexja/extra_haranoajimincho-regular.luc" 1687620063 322627 27ab770e07054f856af31ed70aea8eee ""
   "C:/Users/haru/.texlive2023/texmf-var/luatexja/extra_lmmono9-regular.luc" 1687620063 16824 2ab9e1741265e1623a3297413221dc8c ""
@@ -11,6 +11,7 @@
   "C:/Users/haru/.texlive2023/texmf-var/luatexja/extra_lmroman7-regular.luc" 1687620068 17367 b53bf5b895af7804b3b317e3719688f9 ""
   "C:/Users/haru/.texlive2023/texmf-var/luatexja/extra_lmroman8-regular.luc" 1687620064 17367 b53bf5b895af7804b3b317e3719688f9 ""
   "C:/Users/haru/.texlive2023/texmf-var/luatexja/extra_lmroman9-regular.luc" 1688513690 17367 b53bf5b895af7804b3b317e3719688f9 ""
+  "C:/Users/haru/.texlive2023/texmf-var/luatexja/extra_lmsans10-regular.luc" 1687620067 17367 b53bf5b895af7804b3b317e3719688f9 ""
   "C:/Users/haru/.texlive2023/texmf-var/luatexja/extra_lmsans12-regular.luc" 1687620067 17367 b53bf5b895af7804b3b317e3719688f9 ""
   "C:/Users/haru/.texlive2023/texmf-var/luatexja/ltj-cid-auto-adobe-japan1.luc" 1687620042 1643739 b6958e75fb114a0df4e13658a4ff7a71 ""
   "C:/Users/haru/.texlive2023/texmf-var/luatexja/ltj-jisx0208.luc" 1687620064 93919 3545f967e0ab307c2cc8c3e8cb314d7c ""
@@ -26,9 +27,10 @@
   "C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman7-regular.luc" 1687620068 128367 f8f4182061ff912d6da66d638e40cb4d ""
   "C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman8-regular.luc" 1687620064 128138 298617433af2138cd01065383bfdb37c ""
   "C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman9-regular.luc" 1688513690 127952 4702c933fd35066872239b118d6b4bb5 ""
+  "C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmsans10-regular.luc" 1687620067 127638 9b642ae6b8f6e7b318c2670e85181b40 ""
   "C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmsans12-regular.luc" 1687620067 128157 65af713a7baf78ddf4f3a9523a3e93a6 ""
   "C:/texlive/2023/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz" 1687620059 298144 3f176266c094c7854f5999e2d44a9ef2 ""
-  "c:/Users/haru/github/koza-data/data/texts/PC-Basic/gairon/text2.tex" 1689069412 3838 042cda6e017be24c511c468f274b66a5 ""
+  "c:/Users/haru/github/koza-data/data/texts/PC-Basic/gairon/text2.tex" 1689079181 6304 43e1d24ae55b9731b0fb700544346454 ""
   "c:/texlive/2023/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiGothic-Medium.otf" 1687613181 4741376 86a576fff5f745f9c216bd5c39772d74 ""
   "c:/texlive/2023/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiMincho-Regular.otf" 1687613181 6422404 c1a804d3cc8f1cb78b9d9ff0534b8555 ""
   "c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf" 1687614407 111240 1d60e9def74b1102bb4defa7cb772ee3 ""
@@ -39,6 +41,7 @@
   "c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf" 1687614407 110792 350378005ffb046c5638ff4bf62e341e ""
   "c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf" 1687614407 111948 007834bc78aaaf72e203a5b19ed3b49a ""
   "c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf" 1687614407 112680 58aba3776a198b7a968d5ef9fa96ffb1 ""
+  "c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmsans10-regular.otf" 1687614407 95128 317da301f5d16ce70da8e5df556bc592 ""
   "c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmsans12-regular.otf" 1687614407 95160 a298a0c894450a41822166397e6bc032 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1687611196 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1687611196 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -163,8 +166,8 @@
   "c:/texlive/2023/texmf-dist/tex/platex/jsclasses/jslogo.sty" 1687613595 5585 8e4615c54073c390d14154b29cee89cb ""
   "c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1687869220 4683009 81ac55e6554f9124653631026fb1fc4e ""
   "c:/texlive/2023/texmf-var/web2c/luahbtex/lualatex.fmt" 1687869450 11887551 67f81c3a5d81f6039bec7b9acad54160 ""
-  "text2.aux" 1689069419 989 4529057d6e1ff3952acf2e4861a1b461 "lualatex"
-  "text2.tex" 1689069412 3838 042cda6e017be24c511c468f274b66a5 ""
+  "text2.aux" 1689079185 1415 c553666fcbe5c893fca1d66213dc4670 "lualatex"
+  "text2.tex" 1689079181 6304 43e1d24ae55b9731b0fb700544346454 ""
   (generated)
   "text2.aux"
   "text2.log"

@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.6.27)  11 JUL 2023 18:56
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.6.27)  11 JUL 2023 21:39
  restricted system commands enabled.
  file:line:error style messages enabled.
 **c:/Users/haru/github/koza-data/data/texts/PC-Basic/gairon/text2.tex
@@ -463,7 +463,10 @@ LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
 (Font)              scaled to size 8.32242pt on input line 43.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 8.32242pt on input line 43.
- [2] [3] (./text2.aux)
+ [2]
+LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
+(Font)              scaled to size 9.24713pt on input line 80.
+(load cache: extra_lmsans10-regular.luc) [3] (./text2.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-16>
@@ -471,19 +474,19 @@ L3 programming layer <2023-06-16>
 )
 
 Here is how much of LuaTeX's memory you used:
- 3049 strings out of 478031
- 125244,1977958 words of node,token memory allocated
- 895 words of node memory still in use:
-   7 hlist, 1 vlist, 4 rule, 5 glue, 3 kern, 1 glyph, 162 attribute, 51 glue_spec, 23 attribute_list, 1 write, 9 user_defined nodes
-   avail lists: 1:13,2:34155,3:339,4:221,5:59,6:50,7:3753,8:2,9:1393,10:13,11:47
- 23503 multiletter control sequences out of 65536+600000
- 57 fonts using 48746039 bytes
+ 3051 strings out of 478031
+ 156564,1977958 words of node,token memory allocated
+ 957 words of node memory still in use:
+   7 hlist, 1 vlist, 4 rule, 7 glue, 3 kern, 1 glyph, 184 attribute, 51 glue_spec, 25 attribute_list, 1 write, 9 user_defined nodes
+   avail lists: 1:30,2:38653,3:400,4:227,5:80,6:60,7:4484,8:5,9:1704,10:17,11:47
+ 23505 multiletter control sequences out of 65536+600000
+ 58 fonts using 48877727 bytes
  125i,16n,128p,1817b,627s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman6-regular.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiGothic-Medium.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmsans12-regular.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiMincho-Regular.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf>
-Output written on text2.pdf (3 pages, 77916 bytes).
+<c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmsans10-regular.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman6-regular.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiGothic-Medium.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmsans12-regular.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiMincho-Regular.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf>
+Output written on text2.pdf (3 pages, 97041 bytes).
 
-PDF statistics: 91 PDF objects out of 1000 (max. 8388607)
- 52 compressed objects within 1 object stream
+PDF statistics: 98 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
