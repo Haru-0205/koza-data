@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1689089390 "c:/Users/haru/github/koza-data/data/texts/PC-Basic/gairon/text2.tex" "text2.pdf" "text2" 1689089393 0
+["lualatex"] 1689089645 "c:/Users/haru/github/koza-data/data/texts/PC-Basic/gairon/text2.tex" "text2.pdf" "text2" 1689089650 0
   "C:/Users/haru/.texlive2023/texmf-var/luatexja/extra_haranoajigothic-medium.luc" 1687620067 321554 a5fb98dc0cb494158aab4f607cacfd22 ""
   "C:/Users/haru/.texlive2023/texmf-var/luatexja/extra_haranoajimincho-regular.luc" 1687620063 322627 27ab770e07054f856af31ed70aea8eee ""
   "C:/Users/haru/.texlive2023/texmf-var/luatexja/extra_lmmono9-regular.luc" 1687620063 16824 2ab9e1741265e1623a3297413221dc8c ""
@@ -30,7 +30,7 @@
   "C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmsans10-regular.luc" 1687620067 127638 9b642ae6b8f6e7b318c2670e85181b40 ""
   "C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmsans12-regular.luc" 1687620067 128157 65af713a7baf78ddf4f3a9523a3e93a6 ""
   "C:/texlive/2023/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz" 1687620059 298144 3f176266c094c7854f5999e2d44a9ef2 ""
-  "c:/Users/haru/github/koza-data/data/texts/PC-Basic/gairon/text2.tex" 1689089385 11020 f1c5ffe1b401496aa98418041fd50148 ""
+  "c:/Users/haru/github/koza-data/data/texts/PC-Basic/gairon/text2.tex" 1689089640 11448 c1dec48fce249f4e7becad0b49ad718b ""
   "c:/texlive/2023/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiGothic-Medium.otf" 1687613181 4741376 86a576fff5f745f9c216bd5c39772d74 ""
   "c:/texlive/2023/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiMincho-Regular.otf" 1687613181 6422404 c1a804d3cc8f1cb78b9d9ff0534b8555 ""
   "c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf" 1687614407 111240 1d60e9def74b1102bb4defa7cb772ee3 ""
@@ -166,8 +166,8 @@
   "c:/texlive/2023/texmf-dist/tex/platex/jsclasses/jslogo.sty" 1687613595 5585 8e4615c54073c390d14154b29cee89cb ""
   "c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1687869220 4683009 81ac55e6554f9124653631026fb1fc4e ""
   "c:/texlive/2023/texmf-var/web2c/luahbtex/lualatex.fmt" 1687869450 11887551 67f81c3a5d81f6039bec7b9acad54160 ""
-  "text2.aux" 1689089392 2590 c2f894f1a85ad6903034625a901c56c5 "lualatex"
-  "text2.tex" 1689089385 11020 f1c5ffe1b401496aa98418041fd50148 ""
+  "text2.aux" 1689089649 2693 dd7a43b79ea4dbe971aa5a00769aa97a "lualatex"
+  "text2.tex" 1689089640 11448 c1dec48fce249f4e7becad0b49ad718b ""
   (generated)
   "text2.aux"
   "text2.log"
