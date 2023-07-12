@@ -289,5 +289,52 @@ Markdownファイルの拡張子は[.md]または[.markdown]である。
 PowerShell上でのファイル操作コマンドについて説明する
 \subsubsection{ls}
 ls[list]コマンドは、今いるフォルダー[カレントディレクトリ]内のファイルの一覧を表示するコマンドである。\\
-引数にディレクトリパスを指定すれば、そのディレクトリの中身を表示する
+引数にディレクトリパスを指定すれば、そのディレクトリの中身を表示する。
+\subsubsection{pwd}
+pwd[Print Working Directly]コマンドは、今いるディレクトリのパスを表示するコマンドである。\\
+実行すると、現在のカレントディレクトリの絶対パスが出力される。
+\subsubsection{mkdir}
+mkdir[MaKe DIRectly]コマンドは、カレントディレクトリ以下にディレクトリを作成するコマンドである。\\
+ディレクトリ名を引数に取る。
+\subsubsection{cd}
+cd[Change Directly]コマンドは、カレントディレクトリを移動するコマンドである。\\
+移動先を引数に取り、パスは相対パスでも絶対パスでも可。
+\subsection{gitのセットアップ}
+Gitをインストールしたあとには少々設定が必要である。\\
+そのときに使うのはGitコマンドだ。\\
+\subsubsection{git config}
+git configコマンドは、主にGitを使うための設定を行うコマンドである。\\
+Gitを使うために必要な設定コマンドをいかに示す
+\begin{itemize}
+    \item git config --global user.email <email>
+    \item git config --global user.name <name>
+\end{itemize}
+以上のコマンドは、Gitを使用するにあたって、コミットする際に必要なユーザー名とメールアドレスを登録するコマンドである。
+\subsubsection{git clone}
+git cloneコマンドは、リモートリポジトリをローカルにクローンするコマンドである。\\
+Gitで一番基本的なコマンドであり、始めるために必要不可欠なコマンドと言ってもいいだろう\\
+構文を以下に挙げる。
+\begin{itemize}
+    \item git clone <url>
+\end{itemize}
+ここでURLは、GitHubの場合、[https://github.com/<name>/<repo>]である。\\
+たとえば、本プロジェクトのソースをクローンしたい場合、「git clone https://github.com/haru-0205/OMUCT\_1-4」と入力する。
+\section{次回について}
+次回は、Markdown、今回のコマンドの続きとハードウェアについて行う。\\
+特にコマンドでは、パッケージのインストールを行うコマンドを実際に実行してもらう。\\
+それに伴い、(殆どの場合インストールされてると思うが、)以下のソフトウェアを事前にインストールしておくこと。
+\begin{itemize}
+    \item Windows Package Manager (WinGet)
+\end{itemize}
+Microsoft Storeから簡単に導入できる。\\
+
+
+なお、次回導入するソフトウェアは下記の通りである。\\
+可能な限り導入は避けること。
+\begin{itemize}
+    \item Obsidian
+    \item GitHub CLI
+    \item ImageMagic
+    \item GitKraken
+\end{itemize}
 \end{document}
