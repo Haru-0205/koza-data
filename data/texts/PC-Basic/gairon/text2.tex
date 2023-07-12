@@ -229,4 +229,65 @@ Androidは、少々前まではJavaを使っていたが、Javaの有償化に�
 KotlinはチェコのJetBrains社が開発した言語である。\\
 Androidの標準IDEであるAndroidStudioはJetBrains社のIntelliJ IDEA Communityがベースになっている。\\
 なお、Android StudioはWindows,Mac,Linux対応である。
+\section{Markdown}
+本プロジェクトでは、標準ドキュメント形式としてMarkdownおよび\LaTeX を採用する。\\
+そのうち、みなさんにはMarkdownを活用できるようになっていただきたい。\\
+\subsection{Markdownとは}
+Markdownは、軽量マークアップ言語の1つで、GitHubやQiita、Zennなどのエンジニア向けツールによく採用されている。\\
+ただのプレーンテキストを少しの記号で見やすくすることができる。\\
+これはメモとしても優秀で、構造化して記録できるため、非常に可読性が高いメモになる。
+\subsection{MarkdownとHTML}
+MarkdownはHTMLと互換性があり、Markdown内ではHTMLとMarkdownの共存が可能である。\\
+そもそもMarkdownはHTMLを簡略化したものであり、Markdownで実装されなかったHTMLの機能をHTMLのタグを用いて表現できる。
+\subsection{Mermaid}
+Markdownでは、Mermaid記法というものを用いて、図をかける。\\
+一部のエディターは非対応であるが、多くのエディターで表示できる。
+\subsection{PlantUML}
+Markdownでは、PlantUMLを用いてシーケンス図などを作成できる。\\
+しかし、Mermaidよりも対応しているものは控えめである。
+\subsection{記法}
+Markdownでは、記号を用いて構造化する。
+\subsubsection{見出し}
+Markdownでは、HTML同様、第1レベル～第6レベルの見出しを設定できる。
+\begin{itemize}
+    \item \# 第1レベル
+    \item \#\# 第2レベル
+    \item \#\#\# 第3レベル
+    \item \#\#\#\# 第4レベル
+    \item \#\#\#\#\# 第5レベル
+    \item \#\#\#\#\#\# 第6レベル
+\end{itemize}
+\subsubsection{箇条書き}
+Markdownでは、よく使う記法である箇条書きが簡単にできる。
+\begin{itemize}
+    \item - ハイフン
+    \item * アスタリスク
+    \item \_ アンダーバー(アンダースコア)
+\end{itemize}
+のいずれかで箇条書きにできる
+\subsubsection{番号付きリスト}
+番号付きリストも作成できる
+\begin{itemize}
+    \item 1. 1つ目
+    \item 2. 2つ目
+    \item 1. 3つ目 番号は関係なく通し番号が振り直される
+\end{itemize}
+\subsubsection{表}
+表は比較的簡単に作成可能
+| 列1 | 列2 |
+| --- | :---: |
+| 内容 | 中央揃えの列 |
+\subsection{拡張子}
+Markdownファイルの拡張子は[.md]または[.markdown]である。
+\section{コマンド操作とGit}
+ここでは、Windows PowerShellの使い方とGitについて扱う
+\subsection{コマンドと引数}
+コマンド環境下に打ち込んで端末を制御する文字列をコマンドという。\\
+また、コマンドのあとに文字列をつけることもあり、その文字のことを「引数」という。\\
+読み方は「ひきすう」であり、これは数学の「因数」と区別するためにそうよばれる。
+\subsection{基本コマンド}
+PowerShell上でのファイル操作コマンドについて説明する
+\subsubsection{ls}
+ls[list]コマンドは、今いるフォルダー[カレントディレクトリ]内のファイルの一覧を表示するコマンドである。\\
+引数にディレクトリパスを指定すれば、そのディレクトリの中身を表示する
 \end{document}
