@@ -166,4 +166,67 @@ GUI環境をもつLinuxは、事実上デスクトップ環境(略称:DE)を持�
     \item 実際の操作画面のことをUIといい、GUIとCUIという2種類に大別される
     \item 本プロジェクトでは基本的にOSSでクロスプラットフォームなアプリケーションを利用する
 \end{itemize}
+\section{ソフトウェアについて}
+\subsection{ソフトウェアとは}
+ソフトウェアは、基本ソフトウェア(=OS)と応用ソフトウェア(=アプリケーション)に大別される。\\
+基本ソフトウェアについては先述の通りであるため、ここでは応用ソフトウェアおよびソフトウェアの動作原理・プログラミングについて触れる。
+\subsection{ソフトウェアの構成と作成方法}
+ソフトウェアは、プログラムとライブラリ・バッチファイルなどをまとめてパッケージ化して配布したものと捉えることができる。\\
+プログラムは無論プログラミング言語を用いて作成される。大抵の場合次のような手順を踏む。
+\begin{enumerate}
+    \item 計画
+    \item プログラミング
+    \item コンパイル
+    \item ビルド
+    \item 配布
+\end{enumerate}
+以下では特にプログラミングに焦点を置く。
+\subsection{プログラミングとは}
+プログラミングとは、コンピュータへの命令を書いたファイルを作成する一連の作業のことである。\\
+ここで作成したファイルのことをプログラムと呼ぶ。\\
+混同されがちなものにシェルスクリプトがあるが、シェルスクリプトはプログラムの1つと捉えることができる。
+\subsection{プログラミング言語}
+プログラミングに用いる言語をプログラミング言語というが、これらは以下の2つに大別させる。
+\begin{itemize}
+    \item コンパイラ言語
+    \item スクリプト言語
+\end{itemize}
+それぞれに利点があるが、ここでは主にスクリプト言語を扱う
+\subsubsection{このプロジェクトで扱うプログラミング言語}
+本プロジェクトは、主にWebを対象とするため、自ずと利用する言語は限られてくる。
+以下にそれぞれの特徴を示す
+\subsubsection{JavaScript}
+スクリプト言語で、主にWeb開発に使われる。\\
+Webブラウザ上で実行できるため、殆どの場合実行環境構築はしなくて良い。\\
+なお、Node.jsとよばれるパッケージを用いることで、ローカル環境でも実行でき、Electronというツールを使えば、デスクトップアプリも作成可能と、その活躍幅はWebだけに留まらない。
+\subsubsection{Python}
+スクリプト言語で、様々な用途に使われる。\\
+Web開発の中でもサーバーサイドの開発であるバックエンド開発によく用いられる。\\
+AIなどにも使われるため、身につけて損はないと思うが、インデントが意味を持つ珍しいタイプの言語である。
+\subsubsection{PHP}
+スクリプト言語で、Web開発に使われる。\\
+今回はJavaScriptに統一する予定だが、もしかしたら使うかもしれない。\\
+JavaScriptとは違い、サーバーサイドで実行される。
+\subsubsection{HTML/CSS}
+正確にはプログラミング言語ではない。\\
+HTMLはマークアップ言語、CSSはスタイルシートである。\\
+Webページの枠組みや見た目を作るための言語である。
+\subsection{実際にアプリケーション作成によく使われている言語}
+OSによって大きく異なるため、OSごとに記す
+\subsubsection{Windows}
+Windowsのアプリ開発はわりと自由度が高いが、Microsoft社が開発したC\#を用いることが多い。\\
+C\#はC言語系のJavaおよびC++の派生に位置付けられ、比較的シンプルに記述できる。\\
+C\#以外では、C++やVisual Basic,Java,JavaScriptなどが用いられる。\\
+なお、Windows開発で用いる場合、C\#,C++などはMicrosoftの「方言」があるため、Visualを付してよばれる。\\
+また、C\#,VB.NET,F\#をまとめて.NETとよばれる。\\
+IDEはMicrosoft Visual Studioを使うことが多い。
+\subsubsection{MacOS,iOS,iPadOS}
+Apple製品のアプリ開発は事実上SwiftまたはObjective-C系統の2択である。(正確にはMacではJavaScriptやJavaも動く)
+また、Swiftの標準IDEはMac専用の「XCode」である。\\
+UnityなどでWindowsでビルドはできるが、Macでリビルドしなければ動かせない。
+\subsubsection{Android}
+Androidは、少々前まではJavaを使っていたが、Javaの有償化に伴い、Kotlinが推奨されるようになった。\\
+KotlinはチェコのJetBrains社が開発した言語である。\\
+Androidの標準IDEであるAndroidStudioはJetBrains社のIntelliJ IDEA Communityがベースになっている。\\
+なお、Android StudioはWindows,Mac,Linux対応である。
 \end{document}
